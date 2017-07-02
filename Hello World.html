@@ -3,21 +3,19 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
     <title>Hello World</title>
-    <script src="Hello%20World_pliki/react.js"></script>
-    <script src="Hello%20World_pliki/react-dom.js"></script>
-    <script src="Hello%20World_pliki/babel.js"></script>
+    <script src="react/react.js"></script>
+    <script src="react/react-dom.js"></script>
+    <script src="react/babel.js"></script>
 </head>
   <body>
     <div id="root"></div>
-    
+    <div id="ele"></div>
 	
-	<script type="text/babel">
-		var a=<h1>hello world xd!</h1>;
-      ReactDOM.render(
-        a,
-        document.getElementById('root')
-      );
-
+<script type="text/babel">
+	var a=<h1>hello world xd!</h1>;
+	var c=<h3>aasd</h3>;
+	ReactDOM.render(a,document.getElementById('root'));
+	ReactDOM.render(c,document.getElementById('ele'));
     </script>
   
 

@@ -1,0 +1,14 @@
+#colorFull div{
+	position:fixed;
+    margin:0;
+	left:0;
+	top:0;
+	width: 100%;
+    height: 100%;
+	color:white;
+	font-size:30px;
+	cursor: pointer;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
